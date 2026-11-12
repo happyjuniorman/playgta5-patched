@@ -15,26 +15,7 @@ I don't host the `.\mirror` folder since it has copyrighted content from Rocksta
 <p align="center">
   <img src="media/Screenshot 2026-10-07 172216.png" alt="Folder Properties">
 </p>
-<p align="center">
-  <img src="media/Screenshot 2026-10-07 172718.png" alt="Folder Properties">
-</p>
-<p align="center">
-  <img src="media/Screenshot 2026-10-07 172758.png" alt="Folder Properties">
-</p>
 
 3. Run the `Launch-Local.cmd` and it will automatically open the URL at `http://localhost:8000/`.
 
 4. Voila!
-
-# Requirement
-Scripts require standard-library Python 3.11 or newer. The bundled Python path
-in the commands above is specific to the original PC; the portable ZIP instead
-provides `runtime\python.exe` and the double-click launcher.
-Completed files and `.part` transfers are retained for resumption. Final checks
-cover inventory sizes, runtime hash samples, WASM signature, HTTP isolation,
-range reads and both batch formats. Actual gameplay requires separate browser
-validation. A public client snapshot is not the site's original development repository.
-
-To resume with the current uncapped settings, append `--workers 32 --rate-mib 0`
-to the downloader command. Content lengths from HTTP take precedence over the
-source manifest when it is stale; mismatches are recorded explicitly.
